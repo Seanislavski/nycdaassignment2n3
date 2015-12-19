@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Learning!</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+	<h1>
+		This page has JavaScript <em>on</em> it!
+	</h1>
+	</header>
+	<div class="row">
+		<div id="content1">
+			<h3>Enter °C that you would like 
+			<br> converted to °F</h3>
+			<input id="temperature" type="text" size="4">
+			<input type="submit" onclick='celsToFahr(document.getElementById("temperature").value)'>
+			<h3>
+			That is <a id="here"></a>°F
+			</h3>
+		</div>
+
+		<div id="content2">
+			<h3>Enter °F that you would like 
+			<br> converted to °C</h3>
+			<input id="fToC" type="text" size="4">
+			<input type="submit" onclick='fahrToCels(document.getElementById("fToC").value)'>
+			<h3>
+			That is <a id="there"></a>°C
+			</h3>
+		</div>
+	<!-- </div> -->
+	<!-- <div class="row"> -->
+		<div id="content3">
+			<h3>Enter Number to Square</h3>
+			<input id="squarer" type="text" size="4">
+			<input type="submit" onclick='squareNumber(document.getElementById("squarer").value)'>
+			<h3>
+			The square is <a id="poop"></a>
+			</h3>
+		</div>
+		<div id="content4">
+			<h3>Enter Number to Halve</h3>
+			<input id="halfer" type="text" size="4">
+			<input type="submit" onclick='halfNumber(document.getElementById("halfer").value)'>
+			<h3>
+			Half of that number is <a id="doop"></a>
+			</h3>
+		</div>
+	
+	
+		<div id="content5">
+			<h3>Numbers 1 and 2</h3>
+			<input id="percentOf" type="text" size="4">
+			<input id="percentOf2" type="text" size="4">
+			<input type="submit" onclick='percentOf( (document.getElementById("percentOf").value), (document.getElementById("percentOf2").value))'>
+			<h3>
+				Your first input is <a id="foop"></a>% <br>of your second input. 
+			</h3>
+		</div>
+
+		<div id="content6">
+			<h3>Area of a Circle</h3>
+			<input id="radius" type="text" size="4">
+			<!-- <input id="percentOf2" type="text"> -->
+			<input type="submit" onclick='areaOfCircle(document.getElementById("radius").value)'>
+			<h3>
+				The area of your circle is <a id="roop"></a>
+			</h3>
+		</div>
+		
+		<div id="content7">
+			<h3>Do it all!</h3>
+			<input id="doItAll" type="text" size="4">
+			<input type="submit" onclick='doItAll(document.getElementById("doItAll").value)'>
+		</div>
+
+		
+	</div>
+	<footer>
+		&copy; Sean Rivis 2015
+	</footer>
+</body>
+<script src="js/main.js"></script>
+</html>
+

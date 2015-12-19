@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: center; }
+
+body {
+  display: flex;
+  min-height: 96vh;
+  flex-direction: column; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1; }
+
+div {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px; }
+
+#content1 {
+  order: 1; }
+
+#content2 {
+  order: 2; }
+
+#content3 {
+  order: 3; }
+
+#content4 {
+  order: 4; }
+
+#content5 {
+  order: 5; }
+
+#content6 {
+  order: 6; }
+
+footer {
+  align-self: flex-end;
+  order: 100; }
+
+/*# sourceMappingURL=main.css.map */

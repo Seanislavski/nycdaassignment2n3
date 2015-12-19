@@ -1,0 +1,22 @@
+{
+  "name": "lesson5",
+  "homepage": "https://github.com/seanislavski/nycda",
+  "authors": [
+    "Sean <Sean.Rivis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
